@@ -2,21 +2,50 @@
   font-family: "Lucida Calligraphy";
   src: url("./assets/LucidaCalligraphyNew.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Monotype Corsiva";
+  src: url("./assets/Monotype Corsiva.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KG Happy";
+  src: url("./assets/KGHAPPYSolid.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MS Reference Sans";
+  src: url("./assets/REFSAN.TTF") format("truetype");
+}
+@font-face {
+  font-family: "ITC Avant Garde";
+  src: url("./assets/ITCAvantGardeStd-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("./assets/PALATINO.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MV Boli";
+  src: url("./assets/MVBOLI.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Javanese Text";
+  src: url("./assets/javatext.ttf") format("truetype");
+}
 
 .appContainer {
-  background-color: #b4f0a7;
+  background-color: #d9f7d2;
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
 h1 {
-  margin-top: 200px;
+  margin-top: 0px;
   margin-bottom: 30px;
   font-size: 90px;
-  text-shadow: 1px 1px 20px #80a877;
+  text-shadow: 1px 1px 20px #bbccaf;
 }
 
 input {
@@ -34,10 +63,47 @@ input:focus {
   outline: none;
 }
 
-.lucida {
-  font-size: 25px;
+.lucida,
+.segoe,
+.monotype,
+.kghappy,
+.msreference,
+.itc,
+.palatino,
+.mvboli,
+.impact,
+.javanese {
+  font-size: 25px !important;
+  margin-bottom: 0px;
 }
 
 .lucida {
   font-family: "Lucida Calligraphy";
+}
+.segoe {
+  font-family: "Segoe Script";
+}
+.monotype {
+  font-family: "Monotype Corsiva";
+}
+.kghappy {
+  font-family: "KG Happy";
+}
+.msreference {
+  font-family: "MS Reference Sans";
+}
+.itc {
+  font-family: "ITC Avant Garde";
+}
+.palatino {
+  font-family: "Palatino Linotype";
+}
+.mvboli {
+  font-family: "MV Boli";
+}
+.impact {
+  font-family: "Impact";
+}
+.javanese {
+  font-family: "Javanese Text";
 }
